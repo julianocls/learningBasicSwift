@@ -19,6 +19,7 @@
 		6186BF4D281A3C360050EAC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6186BF4F281A3C390050EAC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6186BF52281A3C390050EAC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6186BF5B281A3CB90050EAC6 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 				6186BF4D281A3C360050EAC6 /* ContentView.swift */,
 				6186BF4F281A3C390050EAC6 /* Assets.xcassets */,
 				6186BF51281A3C390050EAC6 /* Preview Content */,
+				6186BF5B281A3CB90050EAC6 /* MyPlayground.playground */,
 			);
 			path = initialsProject;
 			sourceTree = "<group>";

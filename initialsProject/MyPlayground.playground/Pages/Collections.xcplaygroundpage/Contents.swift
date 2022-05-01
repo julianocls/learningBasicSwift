@@ -8,7 +8,7 @@ arrays.last
 arrays.count
 
 
-//Set
+// MARK: Set
 let sets = Set(["aardvark", "astronaut", "azalea", "azalea"])
 sets.first
 sets.count
@@ -17,7 +17,7 @@ let colors = Set(["red", "green", "blue"])
 let colors2 = Set(["red", "green", "blue", "red", "blue"])
 
 
-// Tuplas
+// MARK: Tuplas
 var name = (first: "Maria", last: "Silva", number: 123, date: Date.now)
 name.1
 name.first
@@ -43,7 +43,7 @@ let set = Set(["aardvark", "astronaut", "azalea"])
 //Se você precisar de uma coleção de valores que possam conter duplicatas, ou a ordem de seus itens for importante, você deve usar uma matriz:
 let pythons = ["Eric", "Graham", "John", "Michael", "Terry", "Terry"]
 
-// dicionarios
+// MARK: dicionarios
 let foods = [
     "pizza": 71.78,
     "sanduiche": 16.73
@@ -57,7 +57,7 @@ foods["suco"]
 foods["suco", default: 0]
 
 
-// Criando coleções vazias
+// MARK: Criando coleções vazias
 
 // Se você deseja criar uma coleção vazia , basta escrever seu tipo seguido de abrir e fechar parênteses. Por exemplo, podemos criar um dicionário vazio com strings para chaves e valores como este:
 var teams = [String: String]()
@@ -85,7 +85,7 @@ numbers.insert(2222)
 numbers
 
 
-// Enumeration – geralmente chamadas apenas de enumerações – são uma maneira de definir grupos de valores relacionados de uma maneira que os torna mais fáceis de usar.
+// MARK: Enumeration – geralmente chamadas apenas de enumerações – são uma maneira de definir grupos de valores relacionados de uma maneira que os torna mais fáceis de usar.
 enum TipoPessoa {
     case fisica
     case juridica
