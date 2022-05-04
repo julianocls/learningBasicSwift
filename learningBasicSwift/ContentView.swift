@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  initialsProject
+//  learningBasicSwift
 //
 //  Created by Juliano Santos on 28/4/22.
 //

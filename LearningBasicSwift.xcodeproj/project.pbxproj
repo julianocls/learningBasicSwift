@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6186BF4C281A3C360050EAC6 /* initialsProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186BF4B281A3C360050EAC6 /* initialsProjectApp.swift */; };
+		6186BF4C281A3C360050EAC6 /* learningBasicSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186BF4B281A3C360050EAC6 /* learningBasicSwift.swift */; };
 		6186BF4E281A3C360050EAC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186BF4D281A3C360050EAC6 /* ContentView.swift */; };
 		6186BF50281A3C390050EAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6186BF4F281A3C390050EAC6 /* Assets.xcassets */; };
 		6186BF53281A3C390050EAC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6186BF52281A3C390050EAC6 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6186BF48281A3C360050EAC6 /* initialsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = initialsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6186BF4B281A3C360050EAC6 /* initialsProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initialsProjectApp.swift; sourceTree = "<group>"; };
+		6186BF48281A3C360050EAC6 /* learningBasicSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learningBasicSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6186BF4B281A3C360050EAC6 /* learningBasicSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learningBasicSwift.swift; sourceTree = "<group>"; };
 		6186BF4D281A3C360050EAC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6186BF4F281A3C390050EAC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6186BF52281A3C390050EAC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		6186BF3F281A3C360050EAC6 = {
 			isa = PBXGroup;
 			children = (
-				6186BF4A281A3C360050EAC6 /* initialsProject */,
+				6186BF4A281A3C360050EAC6 /* learningBasicSwift */,
 				6186BF49281A3C360050EAC6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,21 +44,21 @@
 		6186BF49281A3C360050EAC6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6186BF48281A3C360050EAC6 /* initialsProject.app */,
+				6186BF48281A3C360050EAC6 /* learningBasicSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6186BF4A281A3C360050EAC6 /* initialsProject */ = {
+		6186BF4A281A3C360050EAC6 /* learningBasicSwift */ = {
 			isa = PBXGroup;
 			children = (
-				6186BF4B281A3C360050EAC6 /* initialsProjectApp.swift */,
+				6186BF4B281A3C360050EAC6 /* learningBasicSwift.swift */,
 				6186BF4D281A3C360050EAC6 /* ContentView.swift */,
 				6186BF4F281A3C390050EAC6 /* Assets.xcassets */,
 				6186BF51281A3C390050EAC6 /* Preview Content */,
 				6186BF5B281A3CB90050EAC6 /* MyPlayground.playground */,
 			);
-			path = initialsProject;
+			path = learningBasicSwift;
 			sourceTree = "<group>";
 		};
 		6186BF51281A3C390050EAC6 /* Preview Content */ = {
@@ -72,9 +72,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6186BF47281A3C360050EAC6 /* initialsProject */ = {
+		6186BF47281A3C360050EAC6 /* LearningBasicSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6186BF56281A3C390050EAC6 /* Build configuration list for PBXNativeTarget "initialsProject" */;
+			buildConfigurationList = 6186BF56281A3C390050EAC6 /* Build configuration list for PBXNativeTarget "LearningBasicSwift" */;
 			buildPhases = (
 				6186BF44281A3C360050EAC6 /* Sources */,
 				6186BF45281A3C360050EAC6 /* Frameworks */,
@@ -84,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = initialsProject;
+			name = LearningBasicSwift;
 			productName = initialsProject;
-			productReference = 6186BF48281A3C360050EAC6 /* initialsProject.app */;
+			productReference = 6186BF48281A3C360050EAC6 /* learningBasicSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6186BF43281A3C360050EAC6 /* Build configuration list for PBXProject "initialsProject" */;
+			buildConfigurationList = 6186BF43281A3C360050EAC6 /* Build configuration list for PBXProject "LearningBasicSwift" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6186BF47281A3C360050EAC6 /* initialsProject */,
+				6186BF47281A3C360050EAC6 /* LearningBasicSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -140,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6186BF4E281A3C360050EAC6 /* ContentView.swift in Sources */,
-				6186BF4C281A3C360050EAC6 /* initialsProjectApp.swift in Sources */,
+				6186BF4C281A3C360050EAC6 /* learningBasicSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +282,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.jcls.initialsProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jcls.learningBasicSwift;
+				PRODUCT_NAME = learningBasicSwift;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,8 +311,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.jcls.initialsProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.jcls.learningBasicSwift;
+				PRODUCT_NAME = learningBasicSwift;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6186BF43281A3C360050EAC6 /* Build configuration list for PBXProject "initialsProject" */ = {
+		6186BF43281A3C360050EAC6 /* Build configuration list for PBXProject "LearningBasicSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6186BF54281A3C390050EAC6 /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6186BF56281A3C390050EAC6 /* Build configuration list for PBXNativeTarget "initialsProject" */ = {
+		6186BF56281A3C390050EAC6 /* Build configuration list for PBXNativeTarget "LearningBasicSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6186BF57281A3C390050EAC6 /* Debug */,
