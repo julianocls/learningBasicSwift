@@ -9,5 +9,6 @@
         <page name='Structs'/>
         <page name='Initializers'/>
         <page name='Classes'/>
+        <page name='Protocols'/>
     </pages>
 </playground>
