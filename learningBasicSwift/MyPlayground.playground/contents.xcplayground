@@ -6,5 +6,8 @@
         <page name='Loops'/>
         <page name='Functions'/>
         <page name='Closures'/>
+        <page name='Structs'/>
+        <page name='Initializers'/>
+        <page name='Classes'/>
     </pages>
 </playground>
