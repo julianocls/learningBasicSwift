@@ -10,5 +10,6 @@
         <page name='Initializers'/>
         <page name='Classes'/>
         <page name='Protocols'/>
+        <page name='Optionals'/>
     </pages>
 </playground>
