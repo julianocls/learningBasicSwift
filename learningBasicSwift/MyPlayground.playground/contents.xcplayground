@@ -12,5 +12,6 @@
         <page name='Protocols'/>
         <page name='Optionals'/>
         <page name='Arrays'/>
+        <page name='Dictionaries'/>
     </pages>
 </playground>
