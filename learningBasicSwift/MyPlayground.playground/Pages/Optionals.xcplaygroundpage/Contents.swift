@@ -266,7 +266,56 @@ for pet in pets {
 }
 
 
+// -----------------------------------------------
 
+// Trabalhar com opcionais pode parecer um pouco desajeitado às vezes, e todo o desempacotamento e verificação podem se tornar tão onerosos que você pode ficar tentado a lançar alguns pontos de exclamação para forçar o desempacotamento das coisas para que você possa continuar com o trabalho. Tenha cuidado, porém: se você forçar o desempacotamento de um opcional que não tem um valor, seu código irá travar.
+// O Swift tem duas técnicas para ajudar a tornar seu código menos complicado. O primeiro é chamado de encadeamento opcional, que permite executar código somente se o opcional tiver um valor. Coloque o código abaixo em seu playground para começarmos:
+
+func albumReleased(year: Int) -> String? {
+    switch year {
+    case 2006: return "Taylor Swift"
+    case 2008: return "Fearless"
+    case 2010: return "Speak Now"
+    case 2012: return "Red"
+    case 2014: return "1989"
+    default: return nil
+    }
+}
+
+let album1 = albumReleased(year: 2006)
+print("The album is \(album1)")
+
+// Isso exibirá "O álbum é opcional("Taylor Swift")" no painel de resultados.
+// Se quisermos converter o valor de retorno de albumReleased()letras maiúsculas (ou seja, "TAYLOR SWIFT" em vez de "Taylor Swift"), poderíamos chamar o uppercased()método dessa string. Por exemplo:
+
+let str1 = "Hello world"
+print(str1.uppercased())
+
+// O problema é que albumReleased()retorna uma string opcional: pode retornar uma string ou pode não retornar nada. Então, o que realmente queremos dizer é: "se tivermos uma string de volta, coloque-a em maiúscula, caso contrário, não faça nada". E é aí que entra o encadeamento opcional, porque fornece exatamente esse comportamento.
+// Tente alterar as duas últimas linhas de código para isso:
+
+let album2 = albumReleased(year: 2006)?.uppercased()
+print("The album is \(album2 ?? "")")
+
+// Observe que há um ponto de interrogação ali, que é o encadeamento opcional: tudo depois do ponto de interrogação só será executado se tudo antes do ponto de interrogação tiver um valor. Isso não afeta o tipo de dados subjacente de album, porque essa linha de código agora retornará nil ou retornará o nome do álbum em maiúsculas – ainda é uma string opcional.
+// Suas cadeias opcionais podem ser tão longas quanto você precisar, por exemplo:
+
+/*
+let album3 = albumReleased(year: 2006)?.someOptionalValue?.someOtherOptionalValue?.whatever
+*/
+
+// O Swift os verificará da esquerda para a direita até encontrar nil, quando parará.
+// O operador de coalescência nulo
+// Esse recurso simples do Swift torna seu código muito mais simples e seguro, e ainda tem um nome tão grandioso que muitas pessoas têm medo dele. Isso é uma pena, porque o operador de coalescência zero facilitará sua vida se você dedicar um tempo para descobrir!
+
+// O que ele faz é permitir que você diga "use o valor A se puder, mas se o valor A for nulo, use o valor B". É isso. É particularmente útil com opcionais, porque efetivamente impede que sejam opcionais porque você fornece um valor não opcional B. Portanto, se A for opcional e tiver um valor, ele será usado (temos um valor). Se A estiver presente e não tem valor, B é usado (então ainda temos um valor). De qualquer forma, definitivamente temos um valor.
+// Para fornecer um contexto real, tente usar este código em seu playground:
+
+let album4 = albumReleased(year: 2006) ?? "unknown"
+print("The album is \(album4)")
+
+// Esse ponto de interrogação duplo é o operador de coalescência nil e, nessa situação, significa "se albumReleased()retornado um valor, coloque-o na albumvariável, mas se albumReleased()retornado nil, use 'desconhecido'".
+// Se você olhar no painel de resultados agora, verá "O álbum é Taylor Swift" impresso lá - sem mais opcionais. Isso ocorre porque o Swift agora pode ter certeza de que obterá um valor real de volta, seja porque a função retornou um ou porque você está fornecendo "desconhecido". Isso, por sua vez, significa que você não precisa desembrulhar nada ou correr o risco de travar – você tem a garantia de ter dados reais para trabalhar, o que torna seu código mais seguro e fácil de trabalhar
 
 
 
