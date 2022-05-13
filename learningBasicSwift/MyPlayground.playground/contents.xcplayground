@@ -14,5 +14,6 @@
         <page name='Arrays'/>
         <page name='Dictionaries'/>
         <page name='Enums'/>
+        <page name='Properties'/>
     </pages>
 </playground>
