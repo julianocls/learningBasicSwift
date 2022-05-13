@@ -21,9 +21,10 @@ taylor1.describe()
 other1.describe()
 
 // Como você pode ver, quando você usa uma propriedade dentro de um método, ela automaticamente usa o valor que pertence ao mesmo objeto.
+
 // Observadores de propriedade
 // O Swift permite adicionar código a ser executado quando uma propriedade está prestes a ser alterada ou foi alterada. Essa é frequentemente uma boa maneira de atualizar a interface do usuário quando um valor é alterado, por exemplo.
-// Existem dois tipos de observador de propriedade: willSete didSet, e eles são chamados antes ou depois de uma propriedade ser alterada. Em willSetSwift fornece seu código com um valor especial chamado newValueque contém qual será o novo valor da propriedade, e em didSetvocê é dado oldValuepara representar o valor anterior.
+// Existem dois tipos de observador de propriedade: willSet e didSet, e eles são chamados antes ou depois de uma propriedade ser alterada. Em willSet o Swift fornece seu código com um valor especial chamado newValue que contém qual será o novo valor da propriedade, e em didSet é dado o oldValue para representar o valor anterior.
 
 // Vamos anexar dois observadores de propriedade à clothespropriedade de um Personstruct:
 
