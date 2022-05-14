@@ -16,5 +16,6 @@
         <page name='Enums'/>
         <page name='Properties'/>
         <page name='PolimorphismAndTypecasting'/>
+        <page name='Closures2'/>
     </pages>
 </playground>
