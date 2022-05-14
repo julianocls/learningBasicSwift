@@ -15,5 +15,6 @@
         <page name='Dictionaries'/>
         <page name='Enums'/>
         <page name='Properties'/>
+        <page name='PolimorphismAndTypecasting'/>
     </pages>
 </playground>
