@@ -17,5 +17,6 @@
         <page name='Properties'/>
         <page name='PolimorphismAndTypecasting'/>
         <page name='Closures2'/>
+        <page name='CaptureListInSwift'/>
     </pages>
 </playground>
